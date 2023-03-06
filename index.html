@@ -1,0 +1,31 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- css -->
+        <link rel="stylesheet" href="index.css">
+        <!-- view port -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        
+        <form>
+            <input type="color" id="color-selector">
+            <select id="mode-selector">
+                <option disabled selected>Select color mode</option>
+                <option value="monochrome">monochrome</option> 
+                <option value="monochrome-dark">monochrome-dark</option> 
+                <option value="monochrome-light">monochrome-light</option> 
+                <option value="analogic">analogic</option> 
+                <option value="complement">complement</option> 
+                <option value="analogic-complement">analogic-complement</option> 
+                <option value="triad">triad</option> 
+                <option value="quad">quad</option>
+            </select>
+            <button id="get-color-scheme-btn">Get color scheme</button> 
+        </form> 
+            <div id="color-display">
+                <!-- JS code -->
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
