@@ -2,9 +2,9 @@ const colorSelector = document.getElementById('color-selector')
 const modeSelector = document.getElementById('mode-selector')
 const colorDisplay = document.getElementById('color-display')
 const getColorSchemeBtn = document.getElementById('get-color-scheme-btn')
-const form = document.getElementById('form')
+const formDisplay = document.getElementById('form-dislay')
 
-form.innerHTML = 
+formDisplay.innerHTML = 
                 `
                 <input type="color" id="color-selector">
                 <select id="mode-selector">
@@ -32,7 +32,7 @@ getColorSchemeBtn.addEventListener('click', e => {
                 html += `
                         <div>
                             <h2 style="background-color: ${info.hex.value};"></h2>
-                            <p id="hex-values">${info.hex.value}</p>
+                            <p>${info.hex.value}</p>
                         </div> 
                         `
                 })
