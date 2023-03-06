@@ -2,8 +2,6 @@ const colorSelector = document.getElementById('color-selector')
 const modeSelector = document.getElementById('mode-selector')
 const colorDisplay = document.getElementById('color-display')
 const getColorSchemeBtn = document.getElementById('get-color-scheme-btn')
-const hexValues = document.getElementById('hex-values')
-
 
 getColorSchemeBtn.addEventListener('click', e => {
     e.preventDefault()
@@ -23,7 +21,3 @@ getColorSchemeBtn.addEventListener('click', e => {
                 colorDisplay.innerHTML = html
             })
     })
-    
-// hexValues.addEventListener('click', () => {
-//     navigator.clipboard.writeText(hexValues.textContent)
-// })

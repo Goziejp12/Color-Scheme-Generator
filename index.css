@@ -17,7 +17,7 @@ form, #color-display {
 }
 
 select, button, input {
-    height: 9vh;
+    height: 5vh;
 }
 
 button {
@@ -30,5 +30,5 @@ h2 {
 }
 
 p {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
