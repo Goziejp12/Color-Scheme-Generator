@@ -4,7 +4,7 @@ html, body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1, p {
+h1, #hex-code {
     text-align: center;
 }
 
@@ -30,6 +30,11 @@ h2 {
     height: 50vh;
 }
 
-p {
+#hex-code {
     font-size: 1rem;
+    cursor: pointer;
+}
+
+#hex-code:hover {
+    color: #A02B6D;
 }
