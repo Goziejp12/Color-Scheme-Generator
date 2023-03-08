@@ -23,13 +23,13 @@ getColorSchemeBtn.addEventListener('click', e => {
             })
     })
     
-    function copyHexCode() {
-        let textRange = document.createRange()
-            textRange.selectNode(document.getElementById('hex-code'))
-            window.getSelection().removeAllRanges() //clear current selection
-            window.getSelection().addRange(textRange) // to select text
-            document.execCommand("copy")
-            window.getSelection().removeAllRanges() // to deselect
-            alert("data copied")
-    } 
+    // function copyHexCode() {
+    //     let textRange = document.createRange()
+    //         textRange.selectNode(document.getElementById('hex-code'))
+    //         window.getSelection().removeAllRanges() //clear current selection
+    //         window.getSelection().addRange(textRange) // to select text
+    //         document.execCommand("copy")
+    //         window.getSelection().removeAllRanges() // to deselect
+    //         alert("data copied")
+    // } 
     
